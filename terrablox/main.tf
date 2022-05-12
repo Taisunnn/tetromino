@@ -1,11 +1,11 @@
 variable "access_key" {
-  description = "Database administrator username"
+  description = "Database administrator access key"
   type        = string
   sensitive   = true
 }
 
 variable "secret_key" {
-  description = "Database administrator password"
+  description = "Database administrator secret key"
   type        = string
   sensitive   = true
 }
